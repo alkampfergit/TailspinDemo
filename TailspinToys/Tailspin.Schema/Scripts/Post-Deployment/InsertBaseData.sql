@@ -4,7 +4,7 @@
  
 SET NOCOUNT ON
  
- EXEC sp_MSforeachtable @command1="ALTER TABLE ? NOCHECK CONSTRAINT ALL"
+EXEC sp_MSforeachtable @command1="ALTER TABLE ? NOCHECK CONSTRAINT ALL"
 
 MERGE INTO [Categories] AS Target
 USING (VALUES

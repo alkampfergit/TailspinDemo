@@ -159,7 +159,9 @@
     <Content Include="Shared\Menu.ascx" />
     <Content Include="Shared\NewProducts.ascx" />
     <Content Include="Shared\ProductList.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\CartController.cs" />
@@ -224,6 +226,8 @@
     <Content Include="Template.Master" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\TailspinToys2 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\TailspinToys2 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\tsp-tail-definitive.pubxml" />
     <None Include="Properties\PublishProfiles\TailspinToys - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\TailspinToys - Web Deploy.pubxml" />
